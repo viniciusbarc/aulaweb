@@ -1,0 +1,8 @@
+version: '3'
+services:
+  web:
+    build: .
+    ports:
+      - "80:80"
+    environment:
+      MYSQL_HOST: 192.168.1.109
